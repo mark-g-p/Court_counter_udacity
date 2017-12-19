@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_horizontal">24dp</dimen>
+    <dimen name="margin_bottom_reset">32dp</dimen>
+    <dimen name="margin_point_button">8dp</dimen>
+    <dimen name="margin_points">24dp</dimen>
+    <dimen name="margin_team_name">16dp</dimen>
+</resources>
