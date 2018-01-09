@@ -1,8 +1,12 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <LinearLayout
+        android:id="@+id/score_buttons"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:baselineAligned="false"
@@ -124,6 +128,7 @@
     </LinearLayout>
 
     <Button
+        android:layout_below="@id/score_buttons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -133,3 +138,4 @@
         android:text="@string/reset" />
 
 </RelativeLayout>
+</ScrollView>
